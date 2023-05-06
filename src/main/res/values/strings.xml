@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="ADDNM">ADD NEW MACHINE</string>
+    <string name="udpm">Update Machine</string>
+    <string name="own">Owner Name</string>
+    <string name="MN">Machine Name</string>
+    <string name="MM">Machine Model</string>
+    <string name="Rep">Renatal Pay</string>
+    <string name="CN">Contact Number</string>
+    <string name="cl">Clear</string>
+    <string name="sub">Submit</string>
+    <string name="truc">Tractor</string>
+    <string name="cf">CF326</string>
+    <string name="mym">32dp</string>
+</resources>
