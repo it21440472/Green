@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/top_background_gradient"
+    tools:context=".activities.InsertionActivity">
+
+
+    <LinearLayout
+
+        android:id="@+id/linearLayout"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="92dp"
+        android:background="@color/app_theme_light"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/backstyle"
+            android:paddingLeft="15dp"
+            android:paddingTop="8dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="8dp"
+            android:text="Add Crop Details"
+            android:textColor="@color/white"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/addcropname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Crop Name:"
+            android:inputType="text"
+            android:padding="15dp"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:background="@color/edit_text_background"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/addcroptype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Crop Type:"
+            android:inputType="text"
+            android:padding="15dp"
+            android:background="@color/edit_text_background"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/addcropsize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Crop Size(acres):"
+            android:inputType="number"
+            android:padding="15dp"
+            android:textColor="@color/black"
+            android:background="@color/edit_text_background"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/addcropwork"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Number of Workers:"
+            android:inputType="number"
+            android:padding="15dp"
+            android:textColor="@color/black"
+            android:background="@color/edit_text_background"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/addcropExp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Expenses(Rs.):"
+            android:inputType="number"
+            android:padding="15dp"
+            android:textColor="@color/black"
+            android:background="@color/edit_text_background"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="@color/backstyle"
+        android:text="Save"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+</androidx.constraintlayout.widget.ConstraintLayout>
